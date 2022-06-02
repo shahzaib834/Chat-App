@@ -4,7 +4,8 @@
   "description": "Chat App developed with MERN using websockets.io",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon backend/server.js"
+    "backend": "nodemon backend/server.js",
+    "frontend": "npm start --prefix frontend"
   },
   "author": "Shahzaib",
   "license": "ISC",
